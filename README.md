@@ -25,11 +25,11 @@ Download the CSV from HuggingFace and fetch the audio files:
 ```bash
 # 1. Download the CSV
 from huggingface_hub import hf_hub_download
-csv_path = hf_hub_download("risashinoda/BioVITA", "train.csv", repo_type="dataset")
+csv_path = hf_hub_download("risashinoda/BioVITA", "train/metadata.csv", repo_type="dataset")
 
 # 2. Download audio files and populate file_name
 python download_audio.py \
-  --csv        path/to/train.csv \
+  --csv        path/to/train_metadata.csv \
   --out_dir    path/to/audio \
   --output_csv path/to/train_local.csv \
   --workers    8
