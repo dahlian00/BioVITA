@@ -1,8 +1,6 @@
 # BioVITA
 
-Official code for **BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment** (CVPR 2025).
-
-BioVITA aligns audio, image, and text representations for zero-shot wildlife species retrieval using a 3-modal contrastive objective.
+Official code for **BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment** (CVPR 2026).
 
 - **Model weights**: [risashinoda/BioVITA](https://huggingface.co/risashinoda/BioVITA)
 - **Dataset**: [risashinoda/BioVITA](https://huggingface.co/datasets/risashinoda/BioVITA)
